@@ -146,8 +146,9 @@
     "updater": {
       "active": true,
       "endpoints": [
-        "https://updatejsonserver.vercel.app/posts"
+        "https://newserverforanother.vercel.app/update/{{target}}/{{current_version}}"
       ],
+     
       "dialog": true,
       "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEY3ODM3NTkzNjU4NUREMUMKUldRYzNZVmxrM1dEOTNWS0ZiRkNzQ09VdDlaQWlhdG5vYXJ6cmdSUjREUkJPM0psWk96aDJHbncK"
     },
